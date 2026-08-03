@@ -23,7 +23,7 @@ const getElevenLabsKey = (req) => {
 // Login API Endpoint
 app.post('/api/login', (req, res) => {
   const { username, password } = req.body;
-  if (username === '0981028794' && password === '6789') {
+  if (username === 'Tên đăng nhập' && password === 'Mật khẩu') {
     return res.json({
       success: true,
       user: { username: '0981028794', name: 'Nam AI Master VIP' },
