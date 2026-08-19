@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let sourceNode = null;
 
   // Master API Key for 0981028794
-  const MASTER_KEY = '21b97e4410782023937690e35d4e50ef84a03d841e1455831a438cea7afad0b9';
+  const MASTER_KEY = 'e1cd832cc4051440a528e9927055c93a7ecb0236a9734c7ff6fe98c6c3441f30';
 
   // Preset texts
   const PRESETS = {
