@@ -12,7 +12,7 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Helper to get API Key (from header or env)
-const MASTER_ELEVENLABS_KEY = process.env.ELEVENLABS_API_KEY || '21b97e4410782023937690e35d4e50ef84a03d841e1455831a438cea7afad0b9';
+const MASTER_ELEVENLABS_KEY = process.env.ELEVENLABS_API_KEY || 'e1cd832cc4051440a528e9927055c93a7ecb0236a9734c7ff6fe98c6c3441f30';
 
 const getElevenLabsKey = (req) => {
   const headerKey = req.headers['x-elevenlabs-key'] || req.headers['x-api-key'];
